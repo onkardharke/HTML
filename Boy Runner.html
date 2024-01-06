@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boy Runner</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 100%;
+            height: 100vh;
+            background: #2b3033 url(https://cdn.dribbble.com/userupload/10065226/file/original-5eef7ce5a93de56e3710361204c58b99.jpg?resize=1504x842) 100% 100% no-repeat;
+            background-size: 100% 100%;
+            background-attachment: fixed;
+            font-family: 'YourFallbackFont', sans-serif;
+        }
+
+        img {
+            width: 200px;
+            position: absolute;
+            bottom: 10%;
+            animation: boyrunner 4s linear infinite;
+        }
+
+        @keyframes boyrunner {
+    0% {
+        translate: 0%;
+    }
+
+    
+    100% {
+        translate:  calc(100vw - 200px);
+    }
+}
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    place-items: center;
+    font-size: 24px;
+    color:#fff;
+}
+    </style>
+</head>
+
+<body>
+    <img src="https://media.tenor.com/WBXa6Ot2nHIAAAAi/boy-running.gif" alt="boy running">
+</body>
+<footer>
+    &#169; Onkardharkeofficial, all rights reserved.
+</footer>
+</html>
